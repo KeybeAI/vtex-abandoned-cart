@@ -9,7 +9,7 @@ The keys are located in [Keybe settings](https://keybe.app/admin/configurations/
 Before you insall the script you need to generate a webhook to control the flow.
 
 To create a webhook in VTEX you need to generate the keys under the VTEX store admin.
-App keys are located on: 👇
+App keys are located on: 👉
 https://yourstoreslug.myvtex.com/admin/appkeys
 
 ### Example
@@ -30,7 +30,8 @@ curl --location --request POST 'https://yourstoreslug.myvtex.com/api/orders/hook
   }
 }'
 ```
-### NOTE:
+###  NOTE:  
+
 You need to change YOUR_APP_KEY and YOUR_APP_TOKEN for the ones you generated on your store.
 
 The webhook will guarantee the integration flow behavior.
