@@ -35,3 +35,6 @@ curl --location --request POST 'https://yourstoreslug.myvtex.com/api/orders/hook
 You need to change YOUR_APP_KEY and YOUR_APP_TOKEN for the ones you generated on your store.
 
 The webhook will guarantee the integration flow behavior.
+
+## Especial Config
+You need to add the phone country code in the variable ```countryCode:``` on the script for your country dial code without the '+' character, only numbers
