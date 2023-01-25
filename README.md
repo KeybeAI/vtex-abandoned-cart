@@ -38,3 +38,8 @@ The webhook will guarantee the integration flow behavior.
 
 ## Especial Config
 You need to add the phone country code in the variable ```countryCode:``` on the script for your country dial code without the '+' character, only numbers
+
+# Submit Notification template
+
+You would need to request a whatsapp generic template for notifications.
+You need to request [template here](https://docs.google.com/forms/d/e/1FAIpQLScR-mTsTfmS3LH_uDVMV9Q4mnN1UXhIJKpUPea-j363077iOA/viewform?usp=sf_link "request-form").
