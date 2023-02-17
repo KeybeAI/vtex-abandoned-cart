@@ -7,7 +7,7 @@ console.log('keybe-checkout-ready')
 window.onload = event => {
   setInterval(() => {
     if (window?.vtexjs?.checkout?.orderForm?.orderFormId !== '' && window.vtexjs.checkout.orderForm.orderFormId !== undefined) {
-      fetch('https://nwp3x7ssva.execute-api.us-east-1.amazonaws.com/prod/vtex/sync-contact', {
+      fetch('https://tfwilu7fza.execute-api.us-east-2.amazonaws.com/prod/vtex/sync-contact', {
         method: 'POST',
         body: JSON.stringify({
           orderId: window?.vtexjs?.checkout?.orderForm?.orderFormId,
@@ -28,7 +28,7 @@ window.onload = event => {
 
   const inputPhone = window.document.getElementById('client-phone')
   inputPhone.addEventListener('blur', async () => {
-    await fetch('https://nwp3x7ssva.execute-api.us-east-1.amazonaws.com/prod/vtex/sync-user-by-data', {
+    await fetch('https://tfwilu7fza.execute-api.us-east-2.amazonaws.com/prod/vtex/sync-user-by-data', {
       method: 'POST',
       body: JSON.stringify({
         userData: {
